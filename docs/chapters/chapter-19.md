@@ -1,212 +1,33 @@
-# Chapter 19: Fine-tuning Techniques
+# Chapter 19: AI red teams uncover and identify risks  
 
-<div class="hero">
-  <h2>Fine-tuning Techniques</h2>
-  <p>Part of Generative AI • Chapter 19 of 32</p>
-</div>
+
+![Image 19 - Red Team](../images/19.%20Red%20Team.png)  
 
 ## Overview
 
-This chapter explores fine-tuning techniques, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
+When GPT-4 first came out, Microsoft brought together a group of experts to test the technology and understand what the potential benefits were. We also started digging into the potential risks that we would need to mitigate.  
 
-![Image 19 - Red Team](../images/19.%20Red%20Team.png)
+Our process looks like this.  
 
-## Learning Objectives
+First, we start with a manual approach where we bring together both experts who are coming in and trying to break the system through more sophisticated techniques, which is what we call red teaming, but also people who are just representing average users to help stress test the system.  
 
-By the end of this chapter, you will be able to:
+And we have this diverse team manually probe the model or application - we have them look at different types of topics or different types of harms or risk and prioritize and probe the system for those.  
 
-- 📋 Understand the fundamental concepts of fine-tuning techniques
-- 🎯 Apply key principles to real-world scenarios
-- 🔧 Implement practical solutions and best practices
-- 📊 Evaluate outcomes using appropriate metrics
-- 🚀 Scale your approach for production systems
+Then we look at those results, look at the patterns where the system is still failing, and we use that to improve our mitigations and our evaluations.  
 
-## Key Concepts
+When we're shipping an AI model or application, we have week over week sprints of this manual testing process, and we use that to make our system better.  
 
-<div class="card">
+We acknowledge that not every company has the resources or expertise to red team generative AI models and systems.  
 
-### Concept 1: Foundation Principles
-
-This section covers the foundational principles that underpin fine-tuning techniques. Understanding these concepts is crucial for building effective and trustworthy AI systems.
-
-**Key Points:**
-- Principle 1: Core understanding
-- Principle 2: Practical application
-- Principle 3: Real-world implementation
-
-</div>
-
-<div class="card">
-
-### Concept 2: Technical Implementation
-
-Learn how to implement fine-tuning techniques in your AI projects with practical, hands-on approaches.
-
-**Key Points:**
-- Implementation strategy
-- Tools and frameworks
-- Common pitfalls to avoid
-
-</div>
-
-<div class="card">
-
-### Concept 3: Best Practices
-
-Industry-standard best practices and guidelines for fine-tuning techniques.
-
-**Key Points:**
-- Industry standards
-- Performance optimization
-- Continuous improvement
-
-</div>
-
-<div class="image-placeholder">
-  Diagram: Fine-tuning Techniques Architecture
-</div>
-
-## Practical Examples
-
-### Example 1: Basic Implementation
-
-```python
-# Example code for Fine-tuning Techniques
-import numpy as np
-from sklearn.model_selection import train_test_split
-
-# Sample implementation
-def example_function():
-    """
-    Demonstrate fine-tuning techniques concepts.
-    """
-    # Initialize parameters
-    data = np.random.rand(100, 10)
-    labels = np.random.randint(0, 2, 100)
-    
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(
-        data, labels, test_size=0.2, random_state=42
-    )
-    
-    print(f"Training set size: {len(X_train)}")
-    print(f"Test set size: {len(X_test)}")
-    
-    return X_train, X_test, y_train, y_test
-
-# Run example
-if __name__ == "__main__":
-    example_function()
-```
-
-### Example 2: Advanced Application
-
-```python
-# Advanced implementation example
-class TrustworthyAIComponent:
-    """
-    Advanced component demonstrating fine-tuning techniques.
-    """
-    
-    def __init__(self, config):
-        self.config = config
-        self.model = None
-    
-    def train(self, data):
-        """Train the model with trustworthy AI principles."""
-        # Implementation here
-        pass
-    
-    def evaluate(self, test_data):
-        """Evaluate model with appropriate metrics."""
-        # Implementation here
-        pass
-    
-    def deploy(self):
-        """Deploy with safety checks."""
-        # Implementation here
-        pass
-```
-
-<div class="image-placeholder">
-  Code Example Visualization
-</div>
+That’s why we do it—thoroughly--and we pour our learnings directly into the Azure AI platform for you.  
 
 ## Resources and Further Reading
 
-### Essential Reading
-- 📚 Research Paper: "Key Concepts in Fine-tuning Techniques"
-- 📚 Book: "Practical Guide to Fine-tuning Techniques"
-- 📚 Article: "Industry Perspectives on Fine-tuning Techniques"
+### Online Resources  
 
-### Tools and Frameworks
-- 🛠️ Framework 1: Popular implementation tool
-- 🛠️ Framework 2: Industry-standard library
-- 🛠️ Framework 3: Open-source solution
-
-### Online Resources
-- 🌐 [Official Documentation](https://example.com)
-- 🌐 [Community Forum](https://example.com)
-- 🌐 [Tutorial Series](https://example.com)
-
-### Code Repositories
-- 💻 [Sample Implementation](https://github.com/example)
-- 💻 [Best Practices Guide](https://github.com/example)
-- 💻 [Production Examples](https://github.com/example)
-
-## Hands-On Exercise
-
-!!! note "Exercise: Apply Fine-tuning Techniques"
-    **Objective:** Practice implementing fine-tuning techniques in a real scenario.
-    
-    **Steps:**
-    1. Set up your development environment
-    2. Load the sample dataset
-    3. Implement the core functionality
-    4. Evaluate results using appropriate metrics
-    5. Document your findings
-    
-    **Expected Outcome:** A working implementation demonstrating key concepts.
-
-<div class="image-placeholder">
-  Exercise Workflow Diagram
-</div>
-
-## Common Challenges and Solutions
-
-### Challenge 1: Implementation Complexity
-**Problem:** Initial implementation can be complex and overwhelming.
-**Solution:** Start with simple examples and gradually increase complexity.
-
-### Challenge 2: Performance Optimization
-**Problem:** Achieving optimal performance requires tuning.
-**Solution:** Use established benchmarks and iterative optimization.
-
-### Challenge 3: Production Deployment
-**Problem:** Moving from development to production involves many considerations.
-**Solution:** Follow MLOps best practices and implement proper monitoring.
-
-## Summary
-
-In this chapter, we covered:
-
-- ✅ Fundamental concepts of fine-tuning techniques
-- ✅ Practical implementation approaches
-- ✅ Best practices and industry standards
-- ✅ Real-world examples and use cases
-- ✅ Resources for continued learning
-
-## Key Takeaways
-
-!!! success "Remember"
-    - Fine-tuning Techniques is essential for building trustworthy AI systems
-    - Start with fundamentals before moving to advanced topics
-    - Practice with real examples to solidify understanding
-    - Always consider ethical implications and best practices
-
-<div class="image-placeholder">
-  Chapter Summary Infographic
-</div>
+- 🌐 [Microsoft AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/)  
+- 🌐 [Red Teaming](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/red-teaming)  
+- 🌐 [AI Red Teaming Agent](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/ai-red-teaming-agent)  
 
 ## Next Steps
 

@@ -1,212 +1,28 @@
-# Chapter 18: Prompt Engineering
+# Chapter 18: Automated evaluation metrics in Azure AI Foundry  
 
-<div class="hero">
-  <h2>Prompt Engineering</h2>
-  <p>Part of Generative AI • Chapter 18 of 32</p>
-</div>
+![Image 18 - Auto Eval](../images/18.%20Auto%20Eval.png)  
 
 ## Overview
 
-This chapter explores prompt engineering, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
+We support two types of automated evaluation metrics with low-code and code-first paths.  
+In the context of generative AI, traditional ML metrics are useful when we want to quantify the accuracy of generated outputs compared to expected answers. For instance, in tasks such as classification or short-form question-answering, where there's typically one correct or expected answer, F1 scores can be used to measure the precision and recall of generated outputs against the expected answers, otherwise known as your golden dataset.  
 
-![Image 18 - Auto Eval](../images/18.%20Auto%20Eval.png)
+AI-assisted metrics can be beneficial in scenarios where ground truth and expected answers aren't available, such as open-ended question answering or creative writing.  
 
-## Learning Objectives
+We support pre-built metrics for quality such as groundedness, relevance, and fluency.  
 
-By the end of this chapter, you will be able to:
+We also support pre-built metrics for Risk and Safety, so you can measure how frequently your app is to generating problematic content, such as hateful or violent content, as well as how susceptible it is to jailbreak attacks.  
 
-- 📋 Understand the fundamental concepts of prompt engineering
-- 🎯 Apply key principles to real-world scenarios
-- 🔧 Implement practical solutions and best practices
-- 📊 Evaluate outcomes using appropriate metrics
-- 🚀 Scale your approach for production systems
+You can also define your own custom metrics to run more tailored evaluations for your use case.  
 
-## Key Concepts
 
-<div class="card">
+## Resources and Further Reading  
 
-### Concept 1: Foundation Principles
+### Online Resources  
 
-This section covers the foundational principles that underpin prompt engineering. Understanding these concepts is crucial for building effective and trustworthy AI systems.
+- 🌐 [Evaluate generative AI models and applications by using Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/evaluate-generative-ai-app)  
+- 🌐 [See evaluation results in the Azure AI Foundry portal](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/evaluate-results)  
 
-**Key Points:**
-- Principle 1: Core understanding
-- Principle 2: Practical application
-- Principle 3: Real-world implementation
-
-</div>
-
-<div class="card">
-
-### Concept 2: Technical Implementation
-
-Learn how to implement prompt engineering in your AI projects with practical, hands-on approaches.
-
-**Key Points:**
-- Implementation strategy
-- Tools and frameworks
-- Common pitfalls to avoid
-
-</div>
-
-<div class="card">
-
-### Concept 3: Best Practices
-
-Industry-standard best practices and guidelines for prompt engineering.
-
-**Key Points:**
-- Industry standards
-- Performance optimization
-- Continuous improvement
-
-</div>
-
-<div class="image-placeholder">
-  Diagram: Prompt Engineering Architecture
-</div>
-
-## Practical Examples
-
-### Example 1: Basic Implementation
-
-```python
-# Example code for Prompt Engineering
-import numpy as np
-from sklearn.model_selection import train_test_split
-
-# Sample implementation
-def example_function():
-    """
-    Demonstrate prompt engineering concepts.
-    """
-    # Initialize parameters
-    data = np.random.rand(100, 10)
-    labels = np.random.randint(0, 2, 100)
-    
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(
-        data, labels, test_size=0.2, random_state=42
-    )
-    
-    print(f"Training set size: {len(X_train)}")
-    print(f"Test set size: {len(X_test)}")
-    
-    return X_train, X_test, y_train, y_test
-
-# Run example
-if __name__ == "__main__":
-    example_function()
-```
-
-### Example 2: Advanced Application
-
-```python
-# Advanced implementation example
-class TrustworthyAIComponent:
-    """
-    Advanced component demonstrating prompt engineering.
-    """
-    
-    def __init__(self, config):
-        self.config = config
-        self.model = None
-    
-    def train(self, data):
-        """Train the model with trustworthy AI principles."""
-        # Implementation here
-        pass
-    
-    def evaluate(self, test_data):
-        """Evaluate model with appropriate metrics."""
-        # Implementation here
-        pass
-    
-    def deploy(self):
-        """Deploy with safety checks."""
-        # Implementation here
-        pass
-```
-
-<div class="image-placeholder">
-  Code Example Visualization
-</div>
-
-## Resources and Further Reading
-
-### Essential Reading
-- 📚 Research Paper: "Key Concepts in Prompt Engineering"
-- 📚 Book: "Practical Guide to Prompt Engineering"
-- 📚 Article: "Industry Perspectives on Prompt Engineering"
-
-### Tools and Frameworks
-- 🛠️ Framework 1: Popular implementation tool
-- 🛠️ Framework 2: Industry-standard library
-- 🛠️ Framework 3: Open-source solution
-
-### Online Resources
-- 🌐 [Official Documentation](https://example.com)
-- 🌐 [Community Forum](https://example.com)
-- 🌐 [Tutorial Series](https://example.com)
-
-### Code Repositories
-- 💻 [Sample Implementation](https://github.com/example)
-- 💻 [Best Practices Guide](https://github.com/example)
-- 💻 [Production Examples](https://github.com/example)
-
-## Hands-On Exercise
-
-!!! note "Exercise: Apply Prompt Engineering"
-    **Objective:** Practice implementing prompt engineering in a real scenario.
-    
-    **Steps:**
-    1. Set up your development environment
-    2. Load the sample dataset
-    3. Implement the core functionality
-    4. Evaluate results using appropriate metrics
-    5. Document your findings
-    
-    **Expected Outcome:** A working implementation demonstrating key concepts.
-
-<div class="image-placeholder">
-  Exercise Workflow Diagram
-</div>
-
-## Common Challenges and Solutions
-
-### Challenge 1: Implementation Complexity
-**Problem:** Initial implementation can be complex and overwhelming.
-**Solution:** Start with simple examples and gradually increase complexity.
-
-### Challenge 2: Performance Optimization
-**Problem:** Achieving optimal performance requires tuning.
-**Solution:** Use established benchmarks and iterative optimization.
-
-### Challenge 3: Production Deployment
-**Problem:** Moving from development to production involves many considerations.
-**Solution:** Follow MLOps best practices and implement proper monitoring.
-
-## Summary
-
-In this chapter, we covered:
-
-- ✅ Fundamental concepts of prompt engineering
-- ✅ Practical implementation approaches
-- ✅ Best practices and industry standards
-- ✅ Real-world examples and use cases
-- ✅ Resources for continued learning
-
-## Key Takeaways
-
-!!! success "Remember"
-    - Prompt Engineering is essential for building trustworthy AI systems
-    - Start with fundamentals before moving to advanced topics
-    - Practice with real examples to solidify understanding
-    - Always consider ethical implications and best practices
-
-<div class="image-placeholder">
-  Chapter Summary Infographic
-</div>
 
 ## Next Steps
 
