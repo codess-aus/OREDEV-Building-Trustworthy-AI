@@ -1,212 +1,48 @@
-# Chapter 24: Secure Deployment
+# Chapter 24: Azure AI Content Safety  
 
-<div class="hero">
-  <h2>Secure Deployment</h2>
-  <p>Part of Safety and Security • Chapter 24 of 32</p>
-</div>
+![Image 24 - Content Safety GIF](../images/24.%20Content%20Safety.gif){.gif-figure}
+<div class="gif-caption">Figure: Secure deployment in action (animated)</div>  
 
-## Overview
+## Overview  
 
-This chapter explores secure deployment, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
+But choosing a great base model is just the first step. For most applications, it’s not enough to rely on the safety mitigations built into the model itself. 
+Even with fine-tuning, LLMs can make mistakes and are susceptible to attacks like jailbreaks.
+So, just like security, at Microsoft we use a layered defense-in-depth approach. 
+And we apply an AI-based safety system that goes around the model and monitors the inputs and outputs to help prevent attacks from being successful and catches places where the model makes a mistake.
+At Microsoft, this state-of-the-art safety system is called Azure AI Content Safety.
+And the filters are configurable for inputs and outputs… because you might want different settings for your use case. For example, a gaming company may be more permissive of violent language in inputs but may not want to output violent language to users.
+We’ve integrated this service directly into our Microsoft Copilot ecosystem as a built-in safety system, 
+and we make the same technology available to developers via Azure AI to help them build safer AI applications from the start.
 
-![Image 24 - Content Safety](../images/24.%20Content%20Safety.png)
 
-## Learning Objectives
+There are three types of filters offered by Azure AI Content Safety.
+We provide configurable content filters for harmful content, like text and imagery containing violence or hate speech, which you can adjust by severity level. These are always set to a medium threshold by default. 
+Customers can also create their own custom content filters using small training datasets.
+Prompt shields are detection models that can be turned on for model inputs, to detect when a user is trying to attack or manipulate the AI system into doing something outside it’s intended purpose or design.
+Lastly, we have detection models that can be turned on to flag other kinds of risky inputs or outputs, such as protected or copyright material or code, or hallucinations, where the model output does not align to the source material provided.
+Customers can also create custom blocklists to filters specific terms in inputs or outputs.
 
-By the end of this chapter, you will be able to:
+Azure AI Content Safety detects harmful user-generated and AI-generated content in applications and services. The features in Azure AI Content Safety can help make sure that product reviews, forum posts, and images align with Contoso Camping Store's content guidelines.
 
-- 📋 Understand the fundamental concepts of secure deployment
-- 🎯 Apply key principles to real-world scenarios
-- 🔧 Implement practical solutions and best practices
-- 📊 Evaluate outcomes using appropriate metrics
-- 🚀 Scale your approach for production systems
+Azure AI Content Safety offers a suite of features for monitoring and moderating content in real time:
+Text moderation: Detects and filters out harmful content in text, such as hate speech, violence, or inappropriate language.
+Image moderation: Analyzes images to identify and block content that might be considered unsafe or offensive.
+Multimodal content analysis: Works across various types of content to help ensure a comprehensive strategy for content safety.
+Groundedness detection: Detects and blocks incorrect information in model outputs. It helps ensure that the text responses of large language models are factual and accurate, based on the provided source materials.
+Prompt shields: Analyze large language model (LLM) inputs to detect user prompt attacks and document attacks.
+Protected material detection: Identifies and blocks outputs that could potentially violate copyrights. It scans for matches against an index of third-party text content, including songs, news articles, recipes, and selected web content.
 
-## Key Concepts
+These features are built on AI models that can detect a wide range of potential risks, threats, and quality problems.
 
-<div class="card">
+Every harm category that the service applies also has a severity level. The severity level indicates the severity of the consequences of showing the flagged content.
+The severity scale ranges from 0 to 7. The text model supports both the full scale of 0 to 7 and a trimmed scale of 0, 2, 4, and 6. The current version of the image model supports only the trimmed scale.
 
-### Concept 1: Foundation Principles
 
-This section covers the foundational principles that underpin secure deployment. Understanding these concepts is crucial for building effective and trustworthy AI systems.
-
-**Key Points:**
-- Principle 1: Core understanding
-- Principle 2: Practical application
-- Principle 3: Real-world implementation
-
-</div>
-
-<div class="card">
-
-### Concept 2: Technical Implementation
-
-Learn how to implement secure deployment in your AI projects with practical, hands-on approaches.
-
-**Key Points:**
-- Implementation strategy
-- Tools and frameworks
-- Common pitfalls to avoid
-
-</div>
-
-<div class="card">
-
-### Concept 3: Best Practices
-
-Industry-standard best practices and guidelines for secure deployment.
-
-**Key Points:**
-- Industry standards
-- Performance optimization
-- Continuous improvement
-
-</div>
-
-<div class="image-placeholder">
-  Diagram: Secure Deployment Architecture
-</div>
-
-## Practical Examples
-
-### Example 1: Basic Implementation
-
-```python
-# Example code for Secure Deployment
-import numpy as np
-from sklearn.model_selection import train_test_split
-
-# Sample implementation
-def example_function():
-    """
-    Demonstrate secure deployment concepts.
-    """
-    # Initialize parameters
-    data = np.random.rand(100, 10)
-    labels = np.random.randint(0, 2, 100)
-    
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(
-        data, labels, test_size=0.2, random_state=42
-    )
-    
-    print(f"Training set size: {len(X_train)}")
-    print(f"Test set size: {len(X_test)}")
-    
-    return X_train, X_test, y_train, y_test
-
-# Run example
-if __name__ == "__main__":
-    example_function()
-```
-
-### Example 2: Advanced Application
-
-```python
-# Advanced implementation example
-class TrustworthyAIComponent:
-    """
-    Advanced component demonstrating secure deployment.
-    """
-    
-    def __init__(self, config):
-        self.config = config
-        self.model = None
-    
-    def train(self, data):
-        """Train the model with trustworthy AI principles."""
-        # Implementation here
-        pass
-    
-    def evaluate(self, test_data):
-        """Evaluate model with appropriate metrics."""
-        # Implementation here
-        pass
-    
-    def deploy(self):
-        """Deploy with safety checks."""
-        # Implementation here
-        pass
-```
-
-<div class="image-placeholder">
-  Code Example Visualization
-</div>
 
 ## Resources and Further Reading
 
-### Essential Reading
-- 📚 Research Paper: "Key Concepts in Secure Deployment"
-- 📚 Book: "Practical Guide to Secure Deployment"
-- 📚 Article: "Industry Perspectives on Secure Deployment"
+- 🌐 [Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/)
 
-### Tools and Frameworks
-- 🛠️ Framework 1: Popular implementation tool
-- 🛠️ Framework 2: Industry-standard library
-- 🛠️ Framework 3: Open-source solution
-
-### Online Resources
-- 🌐 [Official Documentation](https://example.com)
-- 🌐 [Community Forum](https://example.com)
-- 🌐 [Tutorial Series](https://example.com)
-
-### Code Repositories
-- 💻 [Sample Implementation](https://github.com/example)
-- 💻 [Best Practices Guide](https://github.com/example)
-- 💻 [Production Examples](https://github.com/example)
-
-## Hands-On Exercise
-
-!!! note "Exercise: Apply Secure Deployment"
-    **Objective:** Practice implementing secure deployment in a real scenario.
-    
-    **Steps:**
-    1. Set up your development environment
-    2. Load the sample dataset
-    3. Implement the core functionality
-    4. Evaluate results using appropriate metrics
-    5. Document your findings
-    
-    **Expected Outcome:** A working implementation demonstrating key concepts.
-
-<div class="image-placeholder">
-  Exercise Workflow Diagram
-</div>
-
-## Common Challenges and Solutions
-
-### Challenge 1: Implementation Complexity
-**Problem:** Initial implementation can be complex and overwhelming.
-**Solution:** Start with simple examples and gradually increase complexity.
-
-### Challenge 2: Performance Optimization
-**Problem:** Achieving optimal performance requires tuning.
-**Solution:** Use established benchmarks and iterative optimization.
-
-### Challenge 3: Production Deployment
-**Problem:** Moving from development to production involves many considerations.
-**Solution:** Follow MLOps best practices and implement proper monitoring.
-
-## Summary
-
-In this chapter, we covered:
-
-- ✅ Fundamental concepts of secure deployment
-- ✅ Practical implementation approaches
-- ✅ Best practices and industry standards
-- ✅ Real-world examples and use cases
-- ✅ Resources for continued learning
-
-## Key Takeaways
-
-!!! success "Remember"
-    - Secure Deployment is essential for building trustworthy AI systems
-    - Start with fundamentals before moving to advanced topics
-    - Practice with real examples to solidify understanding
-    - Always consider ethical implications and best practices
-
-<div class="image-placeholder">
-  Chapter Summary Infographic
-</div>
 
 ## Next Steps
 

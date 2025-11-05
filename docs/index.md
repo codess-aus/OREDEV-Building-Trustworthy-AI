@@ -47,15 +47,15 @@ Building trustworthy AI requires a multi-faceted approach that combines technica
 
 ## Course Structure
 
-The course is organized into 7 sections (32 chapters total):
 
-1. **Getting Started** – Foundations of trustworthy AI (Chapters 1–5)
-2. **Core Concepts** – Key principles and frameworks (Chapters 6–10)
-3. **Technical Foundations** – ML/DL and observable trust (Chapters 11–15)
-4. **Generative AI** – Modern GenAI technologies (Chapters 16–20)
-5. **Safety and Security** – Protecting AI systems (Chapters 21–25)
-6. **Testing and Validation** – Quality assurance & monitoring (Chapters 26–30)
-7. **Responsible AI** – Governance and compliance (Chapters 31–32)
+The course is organized into 6 sections (32 chapters total):
+
+1. **Core Concepts** – Foundations and principles of trustworthy AI (Chapters 1–10)
+2. **Map** – Identifying Harms (Chapter 11)
+3. **Measure** – Evaluation, signals, and safety (Chapters 12–21)
+4. **Mitigate** – Defenses and incident response (Chapters 22–25)
+5. **Operate** – Testing, monitoring, and continuous improvement (Chapters 26–29)
+6. **Conclusion & Resources** – Final thoughts, governance, and further learning (Chapters 30–32)
 
 <div class="image-placeholder">
   Course Structure Diagram
