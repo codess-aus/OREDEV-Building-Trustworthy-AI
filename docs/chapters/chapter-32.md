@@ -212,7 +212,7 @@ In this chapter, we covered:
 
 Continue your learning journey:
 
-[← Chapter 31](chapter-31.md) | [Chapter 33 →](chapter-33.md)
+[← Chapter 31](chapter-31.md) | [Back to Home](../index.md)
 
 ---
 

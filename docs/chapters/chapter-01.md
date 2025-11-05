@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Introduction to Trustworthy AI</h2>
-  <p>Part of Getting Started • Chapter 1 of 50</p>
+  <p>Part of Getting Started • Chapter 1 of 32</p>
 </div>
 
 ## Overview

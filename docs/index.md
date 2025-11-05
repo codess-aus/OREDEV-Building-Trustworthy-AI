@@ -7,11 +7,9 @@
 
 ## Overview
 
-This comprehensive guide covers 50 essential chapters on building trustworthy AI systems, from foundational concepts to advanced implementation strategies. Whether you're a beginner or an experienced practitioner, you'll find valuable insights and practical guidance.
+This comprehensive guide covers 30ish essential thoughts on building trustworthy AI systems, from foundation to defence in depth. Whether you're a beginner or an experienced practitioner, you'll find valuable insights and practical guidance.
 
-<div class="image-placeholder">
-  Hero Image: Trustworthy AI Visualization
-</div>
+![Trustworthy AI Visualization](images/index.png)
 
 ## What You'll Learn
 
