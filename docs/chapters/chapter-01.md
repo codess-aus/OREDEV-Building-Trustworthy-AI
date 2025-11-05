@@ -1,4 +1,4 @@
-# Chapter 1: Introduction to Trustworthy AI
+# Chapter 1: "With great power comes great responsibility"  
 
 ![Image 1 - Responsibility](../images/1.%20Responsibility.png)
 
