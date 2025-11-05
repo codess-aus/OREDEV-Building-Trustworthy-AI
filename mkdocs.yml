@@ -94,14 +94,14 @@ nav:
       - 'Chapter 24: Secure Deployment': chapters/chapter-24.md
       - 'Chapter 25: Incident Response': chapters/chapter-25.md
   - Operate:
-    - 'Chapter 26: AI Testing Strategies': chapters/chapter-26.md
-    - 'Chapter 27: Model Validation': chapters/chapter-27.md
-    - 'Chapter 28: Performance Metrics': chapters/chapter-28.md
-    - 'Chapter 29: Continuous Monitoring': chapters/chapter-29.md
+    - 'Chapter 26: AI Operating with Wisdom': chapters/chapter-26.md
+    - 'Chapter 27: Prepare for Production': chapters/chapter-27.md
+    - 'Chapter 28: Implement Guardrails and Escalation Paths': chapters/chapter-28.md
+    - 'Chapter 29: Feedback Channels': chapters/chapter-29.md
   - Conclusion & Resources:
-    - 'Chapter 30: A/B Testing for AI': chapters/chapter-30.md
-    - 'Chapter 31: AI Governance': chapters/chapter-31.md
-    - 'Chapter 32: Regulatory Compliance': chapters/chapter-32.md
+    - 'Chapter 30: The Path Forward': chapters/chapter-30.md
+    - 'Chapter 31: Resources': chapters/chapter-31.md
+    - 'Chapter 32: Connect with Me!': chapters/chapter-32.md
 
 plugins:
   - search
