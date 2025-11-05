@@ -11,62 +11,41 @@ This comprehensive guide covers 30ish essential thoughts on building trustworthy
 
 Building trustworthy AI requires a multi-faceted approach that combines technical excellence with ethical considerations. This course covers:
 
-<div class="card">
 
-### 🎯 Core Principles
-- Responsibility as foundation, not feature
-- Trust as the bedrock of AI transformation
-- Transparency and explainability by default
-- Ethical and policy alignment in practice
-- Security as core design, not perimeter defense
+### 🎯 Core Principles  
+- Responsibility as foundation, not feature  
+- Trust as the bedrock of AI transformation  
+- Transparency and explainability by default  
+- Ethical and policy alignment in practice  
+- Security as core design, not perimeter defense  
 
-</div>
+### 🔧 Technical Implementation  
+- Map: Identifying potential harms systematically  
+- Measure: Manual and automated evaluation approaches  
+- Mitigate: Defense-in-depth with Azure AI Content Safety  
+- Operate: Continuous monitoring and feedback loops  
+- Azure AI Foundry and GitHub workflows  
 
-<div class="card">
 
-### 🔧 Technical Implementation
-- Map: Identifying potential harms systematically
-- Measure: Manual and automated evaluation approaches
-- Mitigate: Defense-in-depth with Azure AI Content Safety
-- Operate: Continuous monitoring and feedback loops
-- Azure AI Foundry and GitHub workflows
-
-</div>
-
-<div class="card">
-
-### 🌍 Real-World Practice
-- Microsoft's Responsible AI lifecycle
-- Operationalizing trust in AI agents
-- Red teaming and adversarial testing
-- Phased rollouts and incident response
-- Production-ready trustworthy AI systems
-
-</div>
+### 🌍 Real-World Practice  
+- Microsoft's Responsible AI lifecycle  
+- Operationalizing trust in AI agents  
+- Red teaming and adversarial testing  
+- Phased rollouts and incident response  
+- Production-ready trustworthy AI systems  
 
 ## Course Structure
 
 
-The course is organized into 6 sections (32 chapters total):
+The course is organized into 6 sections (32 chapters total):  
 
-1. **Core Concepts** – Foundations and principles of trustworthy AI (Chapters 1–10)
-2. **Map** – Identifying Harms (Chapter 11)
-3. **Measure** – Evaluation, signals, and safety (Chapters 12–21)
-4. **Mitigate** – Defenses and incident response (Chapters 22–25)
-5. **Operate** – Testing, monitoring, and continuous improvement (Chapters 26–29)
-6. **Conclusion & Resources** – Final thoughts, governance, and further learning (Chapters 30–32)
+1. **Core Concepts** – Foundations and principles of trustworthy AI (Chapters 1–10)  
+2. **Map** – Identifying Harms (Chapter 11)  
+3. **Measure** – Evaluation, signals, and safety (Chapters 12–21)  
+4. **Mitigate** – Defenses and incident response (Chapters 22–25)  
+5. **Operate** – Testing, monitoring, and continuous improvement (Chapters 26–29)  
+6. **Conclusion & Resources** – Final thoughts, governance, and further learning (Chapters 30–32)  
 
-<div class="image-placeholder">
-  Course Structure Diagram
-</div>
-
-## Getting Started
-
-Ready to begin your journey? Here are some ways to get started:
-
-<a href="chapters/chapter-01/" class="button">Start Chapter 1</a>
-<a href="chapters/chapter-16/" class="button">Jump to Generative AI</a>
-<a href="chapters/chapter-36/" class="button">Explore Implementation</a>
 
 ## Key Resources
 
@@ -85,9 +64,6 @@ This course is designed for:
 
 No prior AI experience is required for the introductory chapters, though programming knowledge is helpful.
 
-<div class="image-placeholder">
-  Prerequisites and Learning Path Visualization
-</div>
 
 ## About ØREDEV 2025
 
