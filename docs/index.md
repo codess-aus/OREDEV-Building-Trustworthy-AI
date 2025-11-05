@@ -1,15 +1,11 @@
 # Building Trustworthy AI
 
-<div class="hero">
-  <h2>Code is Life: Building a Trustworthy Generative AI Solution</h2>
-  <p>Welcome to ØREDEV 2025 - Your comprehensive guide to building trustworthy and ethical AI systems</p>
-</div>
+![Trustworthy AI Visualization](images/index.png)
 
 ## Overview
 
 This comprehensive guide covers 30ish essential thoughts on building trustworthy AI systems, from foundation to defence in depth. Whether you're a beginner or an experienced practitioner, you'll find valuable insights and practical guidance.
 
-![Trustworthy AI Visualization](images/index.png)
 
 ## What You'll Learn
 
@@ -18,30 +14,33 @@ Building trustworthy AI requires a multi-faceted approach that combines technica
 <div class="card">
 
 ### 🎯 Core Principles
-- Understanding AI ethics and bias
-- Data quality and governance
-- Privacy and security fundamentals
-- Transparency and accountability
+- Responsibility as foundation, not feature
+- Trust as the bedrock of AI transformation
+- Transparency and explainability by default
+- Ethical and policy alignment in practice
+- Security as core design, not perimeter defense
 
 </div>
 
 <div class="card">
 
-### 🔧 Technical Skills
-- Machine learning and deep learning
-- Generative AI and large language models
-- Testing, validation, and monitoring
-- MLOps and deployment strategies
+### 🔧 Technical Implementation
+- Map: Identifying potential harms systematically
+- Measure: Manual and automated evaluation approaches
+- Mitigate: Defense-in-depth with Azure AI Content Safety
+- Operate: Continuous monitoring and feedback loops
+- Azure AI Foundry and GitHub workflows
 
 </div>
 
 <div class="card">
 
-### 🌍 Real-World Applications
-- Healthcare and financial services
-- Education and manufacturing
-- Customer service and beyond
-- Industry-specific best practices
+### 🌍 Real-World Practice
+- Microsoft's Responsible AI lifecycle
+- Operationalizing trust in AI agents
+- Red teaming and adversarial testing
+- Phased rollouts and incident response
+- Production-ready trustworthy AI systems
 
 </div>
 
@@ -73,10 +72,6 @@ Ready to begin your journey? Here are some ways to get started:
 
 Throughout this course, you'll find links to:
 
-- 📚 Research papers and academic resources
-- 🛠️ Tools and frameworks
-- 💻 Code examples and repositories
-- 📊 Datasets and benchmarks
 - 🎓 Additional learning materials
 
 ## Prerequisites
