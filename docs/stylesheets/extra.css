@@ -148,3 +148,22 @@
     font-size: 1rem;
   }
 }
+
+/* GIF figure styling */
+.md-typeset img.gif-figure {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  display: block;
+  margin: 1.5rem auto 0.5rem auto;
+}
+
+.md-typeset .gif-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
+}
