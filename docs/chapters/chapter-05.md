@@ -9,9 +9,7 @@
 
 This chapter explores privacy and security in ai, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 5 Hero Image: Privacy and Security in AI
-</div>
+![Image 5 - Transparency](../images/5.%20Transparency.png)
 
 ## Learning Objectives
 

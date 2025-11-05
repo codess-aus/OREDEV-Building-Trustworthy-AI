@@ -9,9 +9,7 @@
 
 This chapter explores transparency in ai systems, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 6 Hero Image: Transparency in AI Systems
-</div>
+![Image 6 - Ethics](../images/6.%20Ethics.png)
 
 ## Learning Objectives
 

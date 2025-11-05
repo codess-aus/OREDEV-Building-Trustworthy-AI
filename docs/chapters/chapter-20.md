@@ -9,9 +9,7 @@
 
 This chapter explores retrieval augmented generation, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 20 Hero Image: Retrieval Augmented Generation
-</div>
+![Image 20 - Automated Red Team](../images/20.%20Automated%20Red%20Team.png)
 
 ## Learning Objectives
 

@@ -9,9 +9,7 @@
 
 This chapter explores adversarial attacks, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 22 Hero Image: Adversarial Attacks
-</div>
+![Image 22 - Mitigation Tools](../images/22.%20Mitigation%20Tools.png)
 
 ## Learning Objectives
 

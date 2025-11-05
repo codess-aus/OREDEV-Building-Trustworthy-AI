@@ -9,9 +9,7 @@
 
 This chapter explores ai ethics foundations, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 2 Hero Image: AI Ethics Foundations
-</div>
+![Image 2 - Foundation](../images/2.%20Foundation.png)
 
 ## Learning Objectives
 

@@ -9,9 +9,7 @@
 
 This chapter explores ai governance, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 31 Hero Image: AI Governance
-</div>
+![Image 31 - Resources](../images/31.%20Resources.png)
 
 ## Learning Objectives
 

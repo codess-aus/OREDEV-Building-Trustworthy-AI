@@ -9,9 +9,7 @@
 
 This chapter explores incident response, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 25 Hero Image: Incident Response
-</div>
+![Image 25 - Prompt Engineering](../images/25.%20Prompt%20Engineering.png)
 
 ## Learning Objectives
 

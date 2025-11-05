@@ -9,9 +9,7 @@
 
 This chapter explores accountability frameworks, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 9 Hero Image: Accountability Frameworks
-</div>
+![Image 9 - Practical](../images/9.%20Practical.png)
 
 ## Learning Objectives
 

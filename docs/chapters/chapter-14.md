@@ -9,9 +9,7 @@
 
 This chapter explores computer vision essentials, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 14 Hero Image: Computer Vision Essentials
-</div>
+![Image 14 - Observe](../images/14.%20Observe.png)
 
 ## Learning Objectives
 

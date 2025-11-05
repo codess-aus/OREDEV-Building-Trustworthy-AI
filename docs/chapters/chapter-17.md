@@ -9,9 +9,7 @@
 
 This chapter explores large language models, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 17 Hero Image: Large Language Models
-</div>
+![Image 17 - Automated](../images/17.%20Automated.png)
 
 ## Learning Objectives
 

@@ -9,9 +9,7 @@
 
 This chapter explores prompt engineering, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 18 Hero Image: Prompt Engineering
-</div>
+![Image 18 - Auto Eval](../images/18.%20Auto%20Eval.png)
 
 ## Learning Objectives
 

@@ -9,9 +9,7 @@
 
 This chapter explores deep learning basics, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 12 Hero Image: Deep Learning Basics
-</div>
+![Image 12 - Measure](../images/12.%20Measure.png)
 
 ## Learning Objectives
 

@@ -9,9 +9,7 @@
 
 This chapter explores introduction to generative ai, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 16 Hero Image: Introduction to Generative AI
-</div>
+![Image 16 - Manual](../images/16.%20Manual.png)
 
 ## Learning Objectives
 

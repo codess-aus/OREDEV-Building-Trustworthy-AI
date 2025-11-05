@@ -9,9 +9,7 @@
 
 This chapter explores understanding ai bias, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 3 Hero Image: Understanding AI Bias
-</div>
+![Image 3 - Trust](../images/3.%20Trust.png)
 
 ## Learning Objectives
 

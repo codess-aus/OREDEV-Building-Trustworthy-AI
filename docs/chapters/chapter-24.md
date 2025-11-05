@@ -9,9 +9,7 @@
 
 This chapter explores secure deployment, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 24 Hero Image: Secure Deployment
-</div>
+![Image 24 - Content Safety](../images/24.%20Content%20Safety.png)
 
 ## Learning Objectives
 

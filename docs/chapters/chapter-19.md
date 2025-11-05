@@ -9,9 +9,7 @@
 
 This chapter explores fine-tuning techniques, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 19 Hero Image: Fine-tuning Techniques
-</div>
+![Image 19 - Red Team](../images/19.%20Red%20Team.png)
 
 ## Learning Objectives
 

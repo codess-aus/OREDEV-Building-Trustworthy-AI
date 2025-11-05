@@ -9,9 +9,7 @@
 
 This chapter explores performance metrics, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 28 Hero Image: Performance Metrics
-</div>
+![Image 28 - Guardrails and Escalation Paths](../images/28.%20Guardrails%20and%20Escalation%20Paths.png)
 
 ## Learning Objectives
 

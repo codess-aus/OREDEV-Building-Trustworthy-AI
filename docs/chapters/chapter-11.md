@@ -9,9 +9,7 @@
 
 This chapter explores machine learning fundamentals, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 11 Hero Image: Machine Learning Fundamentals
-</div>
+![Image 11 - Harms](../images/11.%20Harms.png)
 
 ## Learning Objectives
 

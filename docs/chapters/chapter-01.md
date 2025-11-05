@@ -9,9 +9,7 @@
 
 This chapter explores introduction to trustworthy ai, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 1 Hero Image: Introduction to Trustworthy AI
-</div>
+![Image 1 - Responsibility](../images/1.%20Responsibility.png)
 
 ## Learning Objectives
 

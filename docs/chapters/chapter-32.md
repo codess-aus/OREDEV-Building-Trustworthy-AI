@@ -9,9 +9,7 @@
 
 This chapter explores regulatory compliance, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 32 Hero Image: Regulatory Compliance
-</div>
+![Image 32 - Socials](../images/32.%20Socials.png)
 
 ## Learning Objectives
 

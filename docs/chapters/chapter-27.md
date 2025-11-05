@@ -9,9 +9,7 @@
 
 This chapter explores model validation, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 27 Hero Image: Model Validation
-</div>
+![Image 27 - Prepare for prod](../images/27.%20Prepare%20for%20prod.png)
 
 ## Learning Objectives
 

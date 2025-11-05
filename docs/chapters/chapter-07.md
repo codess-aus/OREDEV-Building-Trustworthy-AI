@@ -9,9 +9,7 @@
 
 This chapter explores explainable ai (xai), providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 7 Hero Image: Explainable AI (XAI)
-</div>
+![Image 7 - Reliability](../images/7.%20Reliability.png)
 
 ## Learning Objectives
 

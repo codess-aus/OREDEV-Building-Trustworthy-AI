@@ -9,9 +9,7 @@
 
 This chapter explores model security, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 23 Hero Image: Model Security
-</div>
+![Image 23 - Defence in depth](../images/23.%20Defence%20in%20depth.png)
 
 ## Learning Objectives
 

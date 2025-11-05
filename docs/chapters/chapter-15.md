@@ -9,9 +9,7 @@
 
 This chapter explores reinforcement learning, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 15 Hero Image: Reinforcement Learning
-</div>
+![Image 15 - Evaluation](../images/15.%20Evaluation.png)
 
 ## Learning Objectives
 

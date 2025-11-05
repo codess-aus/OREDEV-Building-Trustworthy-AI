@@ -9,9 +9,7 @@
 
 This chapter explores ai safety principles, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 21 Hero Image: AI Safety Principles
-</div>
+![Image 21 - Verification Loops](../images/21.%20Verification%20Loops.png)
 
 ## Learning Objectives
 

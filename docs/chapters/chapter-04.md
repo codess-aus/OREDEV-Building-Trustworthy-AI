@@ -9,9 +9,7 @@
 
 This chapter explores data quality and governance, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 4 Hero Image: Data Quality and Governance
-</div>
+![Image 4 - Trustworthy](../images/4.%20Trustworthy.png)
 
 ## Learning Objectives
 

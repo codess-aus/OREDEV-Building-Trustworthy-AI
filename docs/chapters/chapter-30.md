@@ -9,9 +9,7 @@
 
 This chapter explores a/b testing for ai, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 30 Hero Image: A/B Testing for AI
-</div>
+![Image 30 - The Path Forward](../images/30.%20The%20Path%20Forward.png)
 
 ## Learning Objectives
 

@@ -9,9 +9,7 @@
 
 This chapter explores continuous monitoring, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 29 Hero Image: Continuous Monitoring
-</div>
+![Image 29 - Feedback Channels](../images/29.%20Feedback%20Channels.png)
 
 ## Learning Objectives
 

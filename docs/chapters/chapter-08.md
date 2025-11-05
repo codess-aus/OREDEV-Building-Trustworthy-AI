@@ -9,9 +9,7 @@
 
 This chapter explores fairness metrics and evaluation, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 8 Hero Image: Fairness Metrics and Evaluation
-</div>
+![Image 8 - Security](../images/8.%20Security.png)
 
 ## Learning Objectives
 

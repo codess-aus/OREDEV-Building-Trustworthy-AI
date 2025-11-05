@@ -9,9 +9,7 @@
 
 This chapter explores natural language processing, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 13 Hero Image: Natural Language Processing
-</div>
+![Image 13 - Challenge](../images/13.%20Challenge.png)
 
 ## Learning Objectives
 

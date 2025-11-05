@@ -9,9 +9,7 @@
 
 This chapter explores ai testing strategies, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<div class="image-placeholder">
-  Chapter 26 Hero Image: AI Testing Strategies
-</div>
+![Image 26 - Operate phase](../images/26.%20Operate%20phase.png)
 
 ## Learning Objectives
 
