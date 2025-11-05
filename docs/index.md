@@ -73,6 +73,6 @@ No prior AI experience is required for the introductory chapters, though program
 
 <div class="card">
 
-**Ready to build trustworthy AI?** Start with [Chapter 1: Introduction to Trustworthy AI](chapters/chapter-01.md) and embark on your journey to responsible AI development.
+**Ready to build trustworthy AI?** Start with [Chapter 1: "With great power comes great responsibility"](chapters/chapter-01.md) and embark on your journey to responsible AI development.
 
 </div>
