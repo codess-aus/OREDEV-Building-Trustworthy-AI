@@ -4,7 +4,7 @@
 
 ## Overview
 
-Hope you have enjoyed this website, if you need more resources - raise an issue and I'll add more in.  
+Hope you have enjoyed this website, if you need more resources - [Raise an issue](https://github.com/codess-aus/OREDEV-Building-Trustworthy-AI/issues) and I'll add more in.  
 
 
 ## Next Steps
