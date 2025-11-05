@@ -1,15 +1,12 @@
-# Chapter 32: Regulatory Compliance
+# Chapter 32: Connect with Me!
 
-<div class="hero">
-  <h2>Regulatory Compliance</h2>
-  <p>Part of Responsible AI • Chapter 32 of 32</p>
-</div>
+![Image 32 - Socials](../images/32.%20Socials.png)
 
 ## Overview
 
-This chapter explores regulatory compliance, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
+I'd love it if you'd connect with me on the socials. I try to avoid anything owned by Musk or Zuck as I don't like the idea of them owning my content, but the rest is there. On LinkedIn - Connect, don't just follow - after this conference, surely we are BFFs!
 
-![Image 32 - Socials](../images/32.%20Socials.png)
+
 
 ## Learning Objectives
 

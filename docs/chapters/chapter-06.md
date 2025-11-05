@@ -6,13 +6,24 @@
 
 Agents will face incomplete information, contradictory signals, and shifting objectives - conditions where humans themselves struggle.
 
-Design tactics:
-Failover Strategies: For critical processes, agents should be able to gracefully degrade or escalate to human-in-the-loop, rather than making brittle or catastrophic decisions.
+### Design Tactics for Ethical Alignment
 
-Robustness Testing: Simulate edge cases, adversarial scenarios, and “unknown unknowns.” Agents should be tested with the same rigor as disaster recovery drills.
+**Failover Strategies**: For critical processes, agents should be able to gracefully degrade or escalate to human-in-the-loop, rather than making brittle or catastrophic decisions.
 
-Continuous Learning Loops: Integrate real-world feedback as a core design principle. Agents must be able to learn from past errors and user corrections, not just retrain on static data.
+**Robustness Testing**: Simulate edge cases, adversarial scenarios, and "unknown unknowns." Agents should be tested with the same rigor as disaster recovery drills.
 
+**Continuous Learning Loops**: Integrate real-world feedback as a core design principle. Agents must be able to learn from past errors and user corrections, not just retrain on static data.
+
+### Operationalizing Ethics with Azure AI Foundry
+
+Ethical AI requires both principles and practical enforcement mechanisms:
+
+- **Policy as Code**: Define ethical constraints in system prompts and Azure Policy
+- **Human Oversight Integration**: Configure approval workflows for high-stakes decisions
+- **Feedback Loops**: Use Azure AI Foundry evaluations to measure alignment with values
+- **Graceful Degradation**: Implement fallback behaviors when confidence thresholds aren't met
+
+GitHub Copilot and Azure AI Foundry work together to embed ethical guardrails directly into your development workflow—from code suggestions that follow best practices to deployment gates that enforce policy compliance.
 
 ## Resources and Further Reading
 

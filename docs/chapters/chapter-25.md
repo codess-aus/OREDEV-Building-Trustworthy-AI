@@ -1,212 +1,25 @@
-# Chapter 25: Incident Response
+# Chapter 25: Responsible AI practices in prompt engineering  
 
-<div class="hero">
-  <h2>Incident Response</h2>
-  <p>Part of Safety and Security • Chapter 25 of 32</p>
-</div>
+![Image 25 - Prompt Engineering](../images/25.%20Prompt%20Engineering.png)  
 
-## Overview
+## Overview  
 
-This chapter explores incident response, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
+Thinking back to all the different types of risk that we talked about earlier.  
 
-![Image 25 - Prompt Engineering](../images/25.%20Prompt%20Engineering.png)
+Much of prompt engineering is devoted to implementing best practices for safety.  
 
-## Learning Objectives
+We have found it helpful to build a dedicated part in the metaprompt addressing each and every one of them.  
 
-By the end of this chapter, you will be able to:
+We’ve learned that even small changes to a system message can have an outsized impact.
+For example, it is far more effective to tell a model what not to do AND what to do instead than simply telling it what not to do.  
 
-- 📋 Understand the fundamental concepts of incident response
-- 🎯 Apply key principles to real-world scenarios
-- 🔧 Implement practical solutions and best practices
-- 📊 Evaluate outcomes using appropriate metrics
-- 🚀 Scale your approach for production systems
-
-## Key Concepts
-
-<div class="card">
-
-### Concept 1: Foundation Principles
-
-This section covers the foundational principles that underpin incident response. Understanding these concepts is crucial for building effective and trustworthy AI systems.
-
-**Key Points:**
-- Principle 1: Core understanding
-- Principle 2: Practical application
-- Principle 3: Real-world implementation
-
-</div>
-
-<div class="card">
-
-### Concept 2: Technical Implementation
-
-Learn how to implement incident response in your AI projects with practical, hands-on approaches.
-
-**Key Points:**
-- Implementation strategy
-- Tools and frameworks
-- Common pitfalls to avoid
-
-</div>
-
-<div class="card">
-
-### Concept 3: Best Practices
-
-Industry-standard best practices and guidelines for incident response.
-
-**Key Points:**
-- Industry standards
-- Performance optimization
-- Continuous improvement
-
-</div>
-
-<div class="image-placeholder">
-  Diagram: Incident Response Architecture
-</div>
-
-## Practical Examples
-
-### Example 1: Basic Implementation
-
-```python
-# Example code for Incident Response
-import numpy as np
-from sklearn.model_selection import train_test_split
-
-# Sample implementation
-def example_function():
-    """
-    Demonstrate incident response concepts.
-    """
-    # Initialize parameters
-    data = np.random.rand(100, 10)
-    labels = np.random.randint(0, 2, 100)
-    
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(
-        data, labels, test_size=0.2, random_state=42
-    )
-    
-    print(f"Training set size: {len(X_train)}")
-    print(f"Test set size: {len(X_test)}")
-    
-    return X_train, X_test, y_train, y_test
-
-# Run example
-if __name__ == "__main__":
-    example_function()
-```
-
-### Example 2: Advanced Application
-
-```python
-# Advanced implementation example
-class TrustworthyAIComponent:
-    """
-    Advanced component demonstrating incident response.
-    """
-    
-    def __init__(self, config):
-        self.config = config
-        self.model = None
-    
-    def train(self, data):
-        """Train the model with trustworthy AI principles."""
-        # Implementation here
-        pass
-    
-    def evaluate(self, test_data):
-        """Evaluate model with appropriate metrics."""
-        # Implementation here
-        pass
-    
-    def deploy(self):
-        """Deploy with safety checks."""
-        # Implementation here
-        pass
-```
-
-<div class="image-placeholder">
-  Code Example Visualization
-</div>
+We’ve baked these learnings into Azure AI Foundry playground for you, so you don’t need to start from scratch when building a system message.  
 
 ## Resources and Further Reading
 
-### Essential Reading
-- 📚 Research Paper: "Key Concepts in Incident Response"
-- 📚 Book: "Practical Guide to Incident Response"
-- 📚 Article: "Industry Perspectives on Incident Response"
+- 🌐 [Prompt Engineering Concepts](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/prompt-engineering)
+- 🌐 [Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
 
-### Tools and Frameworks
-- 🛠️ Framework 1: Popular implementation tool
-- 🛠️ Framework 2: Industry-standard library
-- 🛠️ Framework 3: Open-source solution
-
-### Online Resources
-- 🌐 [Official Documentation](https://example.com)
-- 🌐 [Community Forum](https://example.com)
-- 🌐 [Tutorial Series](https://example.com)
-
-### Code Repositories
-- 💻 [Sample Implementation](https://github.com/example)
-- 💻 [Best Practices Guide](https://github.com/example)
-- 💻 [Production Examples](https://github.com/example)
-
-## Hands-On Exercise
-
-!!! note "Exercise: Apply Incident Response"
-    **Objective:** Practice implementing incident response in a real scenario.
-    
-    **Steps:**
-    1. Set up your development environment
-    2. Load the sample dataset
-    3. Implement the core functionality
-    4. Evaluate results using appropriate metrics
-    5. Document your findings
-    
-    **Expected Outcome:** A working implementation demonstrating key concepts.
-
-<div class="image-placeholder">
-  Exercise Workflow Diagram
-</div>
-
-## Common Challenges and Solutions
-
-### Challenge 1: Implementation Complexity
-**Problem:** Initial implementation can be complex and overwhelming.
-**Solution:** Start with simple examples and gradually increase complexity.
-
-### Challenge 2: Performance Optimization
-**Problem:** Achieving optimal performance requires tuning.
-**Solution:** Use established benchmarks and iterative optimization.
-
-### Challenge 3: Production Deployment
-**Problem:** Moving from development to production involves many considerations.
-**Solution:** Follow MLOps best practices and implement proper monitoring.
-
-## Summary
-
-In this chapter, we covered:
-
-- ✅ Fundamental concepts of incident response
-- ✅ Practical implementation approaches
-- ✅ Best practices and industry standards
-- ✅ Real-world examples and use cases
-- ✅ Resources for continued learning
-
-## Key Takeaways
-
-!!! success "Remember"
-    - Incident Response is essential for building trustworthy AI systems
-    - Start with fundamentals before moving to advanced topics
-    - Practice with real examples to solidify understanding
-    - Always consider ethical implications and best practices
-
-<div class="image-placeholder">
-  Chapter Summary Infographic
-</div>
 
 ## Next Steps
 

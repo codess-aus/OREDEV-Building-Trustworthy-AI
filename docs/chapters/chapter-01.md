@@ -8,6 +8,19 @@
 
 Developers write the code the world runs on, and with Gen AI, we're changing how things work. But with great power comes great responsibility. We can go faster, increase productivity, collaboration, and innovation, but if we don't ensure what we build is worth building, it's worse than vaporware.
 
+The generative AI revolution offers unprecedented capabilities, but also unprecedented responsibility. This chapter sets the foundation for building AI systems that are not just powerful, but trustworthy. We'll explore how Azure AI Foundry and GitHub provide the tools to operationalize responsible AI from day one, enabling you to move fast without breaking trust.
+
+### Planning a Responsible AI Solution
+
+Building trustworthy AI starts with intentionality:
+
+- **Define Success Metrics**: Beyond accuracy—measure fairness, transparency, and user impact
+- **Identify Stakeholders**: Who will be affected? Who needs oversight capabilities?
+- **Establish Governance**: Use Azure AI Foundry's built-in compliance and audit trails
+- **Set Boundaries**: Define acceptable use cases and red lines before development begins
+
+With GitHub's collaborative development workflows and Azure AI Foundry's responsible AI toolkit, you can embed trust into every commit, every deployment, and every user interaction. The question isn't whether you can build it—it's whether you should, and if so, how to do it right.
+
 ## Learning Objectives
 
 **1. Plan a Responsible Generative AI Solution**
