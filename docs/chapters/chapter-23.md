@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Model Security</h2>
-  <p>Part of Safety and Security • Chapter 23 of 50</p>
+  <p>Part of Safety and Security • Chapter 23 of 32</p>
 </div>
 
 ## Overview

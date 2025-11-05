@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Secure Deployment</h2>
-  <p>Part of Safety and Security • Chapter 24 of 50</p>
+  <p>Part of Safety and Security • Chapter 24 of 32</p>
 </div>
 
 ## Overview

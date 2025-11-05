@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>A/B Testing for AI</h2>
-  <p>Part of Testing and Validation • Chapter 30 of 50</p>
+  <p>Part of Testing and Validation • Chapter 30 of 32</p>
 </div>
 
 ## Overview

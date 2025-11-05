@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Adversarial Attacks</h2>
-  <p>Part of Safety and Security • Chapter 22 of 50</p>
+  <p>Part of Safety and Security • Chapter 22 of 32</p>
 </div>
 
 ## Overview

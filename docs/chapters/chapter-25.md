@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Incident Response</h2>
-  <p>Part of Safety and Security • Chapter 25 of 50</p>
+  <p>Part of Safety and Security • Chapter 25 of 32</p>
 </div>
 
 ## Overview

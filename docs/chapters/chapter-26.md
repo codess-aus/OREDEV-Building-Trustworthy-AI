@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>AI Testing Strategies</h2>
-  <p>Part of Testing and Validation • Chapter 26 of 50</p>
+  <p>Part of Testing and Validation • Chapter 26 of 32</p>
 </div>
 
 ## Overview

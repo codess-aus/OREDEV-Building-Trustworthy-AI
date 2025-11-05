@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Introduction to Generative AI</h2>
-  <p>Part of Generative AI • Chapter 16 of 50</p>
+  <p>Part of Generative AI • Chapter 16 of 32</p>
 </div>
 
 ## Overview

@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Performance Metrics</h2>
-  <p>Part of Testing and Validation • Chapter 28 of 50</p>
+  <p>Part of Testing and Validation • Chapter 28 of 32</p>
 </div>
 
 ## Overview

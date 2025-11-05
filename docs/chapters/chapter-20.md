@@ -2,17 +2,15 @@
 
 <div class="hero">
   <h2>Retrieval Augmented Generation</h2>
-  <p>Part of Generative AI • Chapter 20 of 50</p>
+  <p>Part of Generative AI • Chapter 20 of 32</p>
 </div>
 
 ## Overview
 
 This chapter explores retrieval augmented generation, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
 
-<figure style="text-align:center; margin: 1.5rem 0;">
-  <img src="../images/20.%20auto%20red-teaming.gif" alt="Automated Red Teaming demo animation" style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15);" />
-  <figcaption style="font-size:0.9rem; color:#555; margin-top:0.5rem;">Figure: Automated Red Teaming workflow (animated GIF)</figcaption>
-</figure>
+![Automated Red Teaming workflow (animated)](../images/20.%20auto%20red-teaming.gif){ .gif-figure }
+<div class="gif-caption">Figure: Automated Red Teaming workflow (animated)</div>
 
 ## Learning Objectives
 

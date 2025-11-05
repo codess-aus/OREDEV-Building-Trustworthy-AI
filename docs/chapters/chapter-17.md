@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Large Language Models</h2>
-  <p>Part of Generative AI • Chapter 17 of 50</p>
+  <p>Part of Generative AI • Chapter 17 of 32</p>
 </div>
 
 ## Overview

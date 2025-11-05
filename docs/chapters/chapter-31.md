@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>AI Governance</h2>
-  <p>Part of Responsible AI • Chapter 31 of 50</p>
+  <p>Part of Responsible AI • Chapter 31 of 32</p>
 </div>
 
 ## Overview

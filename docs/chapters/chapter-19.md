@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Fine-tuning Techniques</h2>
-  <p>Part of Generative AI • Chapter 19 of 50</p>
+  <p>Part of Generative AI • Chapter 19 of 32</p>
 </div>
 
 ## Overview

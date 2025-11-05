@@ -80,8 +80,8 @@ nav:
     - Chapter 11 - Machine Learning Fundamentals: chapters/chapter-11.md
     - Chapter 12 - Deep Learning Basics: chapters/chapter-12.md
     - Chapter 13 - Natural Language Processing: chapters/chapter-13.md
-    - Chapter 14 - Computer Vision Essentials: chapters/chapter-14.md
-    - Chapter 15 - Reinforcement Learning: chapters/chapter-15.md
+  - Chapter 14 - Design for Observable Trust Signals: chapters/chapter-14.md
+  - Chapter 15 - Continuous Evaluation & Monitoring: chapters/chapter-15.md
   - Generative AI:
     - Chapter 16 - Introduction to Generative AI: chapters/chapter-16.md
     - Chapter 17 - Large Language Models: chapters/chapter-17.md

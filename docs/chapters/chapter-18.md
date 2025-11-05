@@ -2,7 +2,7 @@
 
 <div class="hero">
   <h2>Prompt Engineering</h2>
-  <p>Part of Generative AI • Chapter 18 of 50</p>
+  <p>Part of Generative AI • Chapter 18 of 32</p>
 </div>
 
 ## Overview
