@@ -20,8 +20,6 @@ By the end of this chapter, you will be able to:
 
 ## Key Concepts
 
-<div class="card">
-
 ### Concept 1: Foundation Principles
 
 This section covers the foundational principles that underpin regulatory compliance. Understanding these concepts is crucial for building effective and trustworthy AI systems.
@@ -31,9 +29,6 @@ This section covers the foundational principles that underpin regulatory complia
 - Principle 2: Practical application
 - Principle 3: Real-world implementation
 
-</div>
-
-<div class="card">
 
 ### Concept 2: Technical Implementation
 
@@ -44,9 +39,6 @@ Learn how to implement regulatory compliance in your AI projects with practical,
 - Tools and frameworks
 - Common pitfalls to avoid
 
-</div>
-
-<div class="card">
 
 ### Concept 3: Best Practices
 
@@ -57,11 +49,9 @@ Industry-standard best practices and guidelines for regulatory compliance.
 - Performance optimization
 - Continuous improvement
 
-</div>
 
 <div class="image-placeholder">
   Diagram: Regulatory Compliance Architecture
-</div>
 
 ## Practical Examples
 
@@ -127,7 +117,6 @@ class TrustworthyAIComponent:
 
 <div class="image-placeholder">
   Code Example Visualization
-</div>
 
 ## Resources and Further Reading
 
@@ -167,7 +156,6 @@ class TrustworthyAIComponent:
 
 <div class="image-placeholder">
   Exercise Workflow Diagram
-</div>
 
 ## Common Challenges and Solutions
 
@@ -203,7 +191,6 @@ In this chapter, we covered:
 
 <div class="image-placeholder">
   Chapter Summary Infographic
-</div>
 
 ## Next Steps
 
@@ -213,8 +200,5 @@ Continue your learning journey:
 
 ---
 
-<div class="card">
-
 **Questions or feedback?** Join the discussion on our [GitHub repository](https://github.com/codess-aus/OREDEV-Building-Trustworthy-AI) or connect with the community.
 
-</div>
