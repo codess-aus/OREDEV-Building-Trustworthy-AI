@@ -1,9 +1,6 @@
 # Chapter 1: Introduction to Trustworthy AI
 
-<div class="hero">
-  <h2>Introduction to Trustworthy AI</h2>
-  <p>Part of Getting Started • Chapter 1 of 32</p>
-</div>
+![Image 1 - Responsibility](../images/1.%20Responsibility.png)
 
 ## Overview
 
@@ -35,10 +32,7 @@ We'll cover key principles of ethical AI operation, ensuring we're always puttin
 
 **6. Explore Content Filters in Azure AI Studio**
 
-We'll explore content filters to help maintain a responsible AI solution.
-
-
-![Image 1 - Responsibility](../images/1.%20Responsibility.png)
+We'll explore content filters to help maintain a responsible AI solution.  
 
 
 ## Resources and Further Reading
