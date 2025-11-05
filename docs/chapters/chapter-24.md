@@ -1,7 +1,6 @@
 # Chapter 24: Azure AI Content Safety  
 
-![Image 24 - Content Safety GIF](../images/24.%20Content%20Safety.gif){.gif-figure}
-<div class="gif-caption">Figure: Secure deployment in action (animated)</div>  
+![Image 24 - Content Safety](../images/24.%20Content%20Safety.png)
 
 ## Overview  
 
