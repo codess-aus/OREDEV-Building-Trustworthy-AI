@@ -1,9 +1,7 @@
 # Chapter 2: Responsibility isn’t a feature, it’s a foundation!
 
-<div class="hero">
-  <h2>Responsibility isn’t a feature, it’s a foundation</h2>
-  <p>Part of Getting Started • Chapter 2 of 32</p>
-</div>
+![Image 2 - Foundation](../images/2.%20Foundation.png)  
+
 
 ## Overview
 
@@ -20,9 +18,6 @@ The leap from automation to autonomy magnifies the stakes.
 So, how do we design agents that enterprises not only adopt but truly trust? What are the hard questions we must answer to move from technical promise to operational reality? And what does a practical path to implementation look like? 
 
 This is the trust problem in the agentic era, a challenge that, when solved, unlocks massive efficiency, scalability, and innovation.
-
-
-![Image 2 - Foundation](../images/2.%20Foundation.png)
 
 
 ## Next Steps
