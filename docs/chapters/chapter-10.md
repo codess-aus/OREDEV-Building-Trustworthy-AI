@@ -1,212 +1,29 @@
-# Chapter 10: Human-AI Collaboration
+# Chapter 10: Responsible AI Lifecycle  
 
-<div class="hero">
-  <h2>Human-AI Collaboration</h2>
-  <p>Part of Core Concepts • Chapter 10 of 50</p>
-</div>
+![Image 10 - Map](../images/10.%20Map.png)  
 
-## Overview
+## Overview  
 
-This chapter explores human-ai collaboration, providing comprehensive coverage of key concepts, practical applications, and best practices for building trustworthy AI systems.
+The good news is, a few years ago, you’d need to do all this yourself – build those dashboards, manually monitor thousands of signals and interpret them in time to save your operations from going down. But now, all the steps I highlight today can be done with Azure Foundry and across the whole Microsoft AI Suite. You can operationalize AI responsibly, hand in hand with AI as your copilot.
+These are the essential development steps we use in our own engineering teams, and these steps will guide our conversation today.  
 
-![Image 10 - Map](../images/10.%20Map.png)
+Now, this makes the process look somewhat linear, system, any software development process, it’s totally iterative and filled with experimentation.  
 
-## Learning Objectives
+We’ll go through each of these steps in more depth, but here’s a quick overview.  
 
-By the end of this chapter, you will be able to:
+- First, note this governance layer. At Microsoft, we have AI principles and governance processes that define our product requirements and serve as our north star.  
+- As soon as we have a business use case requiring generative AI, we work to identify the potential risks that could result from the AI system, so we know what we need to look out for.  
+- We also measure how prevalent the risks are in our AI system, so we know where to focus our attention.  
+- We also leverage tools and techniques to mitigate those risk, using strategies such as prompt engineering, grounding, and content filters.  
+- We then look at strategies for deployment and operational readiness, including setting up monitoring so we can continually improve our app in production.  
 
-- 📋 Understand the fundamental concepts of human-ai collaboration
-- 🎯 Apply key principles to real-world scenarios
-- 🔧 Implement practical solutions and best practices
-- 📊 Evaluate outcomes using appropriate metrics
-- 🚀 Scale your approach for production systems
 
-## Key Concepts
-
-<div class="card">
-
-### Concept 1: Foundation Principles
-
-This section covers the foundational principles that underpin human-ai collaboration. Understanding these concepts is crucial for building effective and trustworthy AI systems.
-
-**Key Points:**
-- Principle 1: Core understanding
-- Principle 2: Practical application
-- Principle 3: Real-world implementation
-
-</div>
-
-<div class="card">
-
-### Concept 2: Technical Implementation
-
-Learn how to implement human-ai collaboration in your AI projects with practical, hands-on approaches.
-
-**Key Points:**
-- Implementation strategy
-- Tools and frameworks
-- Common pitfalls to avoid
-
-</div>
-
-<div class="card">
-
-### Concept 3: Best Practices
-
-Industry-standard best practices and guidelines for human-ai collaboration.
-
-**Key Points:**
-- Industry standards
-- Performance optimization
-- Continuous improvement
-
-</div>
-
-<div class="image-placeholder">
-  Diagram: Human-AI Collaboration Architecture
-</div>
-
-## Practical Examples
-
-### Example 1: Basic Implementation
-
-```python
-# Example code for Human-AI Collaboration
-import numpy as np
-from sklearn.model_selection import train_test_split
-
-# Sample implementation
-def example_function():
-    """
-    Demonstrate human-ai collaboration concepts.
-    """
-    # Initialize parameters
-    data = np.random.rand(100, 10)
-    labels = np.random.randint(0, 2, 100)
-    
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(
-        data, labels, test_size=0.2, random_state=42
-    )
-    
-    print(f"Training set size: {len(X_train)}")
-    print(f"Test set size: {len(X_test)}")
-    
-    return X_train, X_test, y_train, y_test
-
-# Run example
-if __name__ == "__main__":
-    example_function()
-```
-
-### Example 2: Advanced Application
-
-```python
-# Advanced implementation example
-class TrustworthyAIComponent:
-    """
-    Advanced component demonstrating human-ai collaboration.
-    """
-    
-    def __init__(self, config):
-        self.config = config
-        self.model = None
-    
-    def train(self, data):
-        """Train the model with trustworthy AI principles."""
-        # Implementation here
-        pass
-    
-    def evaluate(self, test_data):
-        """Evaluate model with appropriate metrics."""
-        # Implementation here
-        pass
-    
-    def deploy(self):
-        """Deploy with safety checks."""
-        # Implementation here
-        pass
-```
-
-<div class="image-placeholder">
-  Code Example Visualization
-</div>
-
-## Resources and Further Reading
-
-### Essential Reading
-- 📚 Research Paper: "Key Concepts in Human-AI Collaboration"
-- 📚 Book: "Practical Guide to Human-AI Collaboration"
-- 📚 Article: "Industry Perspectives on Human-AI Collaboration"
-
-### Tools and Frameworks
-- 🛠️ Framework 1: Popular implementation tool
-- 🛠️ Framework 2: Industry-standard library
-- 🛠️ Framework 3: Open-source solution
+## Resources and Further Reading  
 
 ### Online Resources
-- 🌐 [Official Documentation](https://example.com)
-- 🌐 [Community Forum](https://example.com)
-- 🌐 [Tutorial Series](https://example.com)
+- 🌐 [Overview of responsible AI practices for Azure OpenAI models](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/overview)  
+- 🌐 [Explore Responsible AI](https://learn.microsoft.com/en-us/training/modules/responsible-ai/)  
 
-### Code Repositories
-- 💻 [Sample Implementation](https://github.com/example)
-- 💻 [Best Practices Guide](https://github.com/example)
-- 💻 [Production Examples](https://github.com/example)
-
-## Hands-On Exercise
-
-!!! note "Exercise: Apply Human-AI Collaboration"
-    **Objective:** Practice implementing human-ai collaboration in a real scenario.
-    
-    **Steps:**
-    1. Set up your development environment
-    2. Load the sample dataset
-    3. Implement the core functionality
-    4. Evaluate results using appropriate metrics
-    5. Document your findings
-    
-    **Expected Outcome:** A working implementation demonstrating key concepts.
-
-<div class="image-placeholder">
-  Exercise Workflow Diagram
-</div>
-
-## Common Challenges and Solutions
-
-### Challenge 1: Implementation Complexity
-**Problem:** Initial implementation can be complex and overwhelming.
-**Solution:** Start with simple examples and gradually increase complexity.
-
-### Challenge 2: Performance Optimization
-**Problem:** Achieving optimal performance requires tuning.
-**Solution:** Use established benchmarks and iterative optimization.
-
-### Challenge 3: Production Deployment
-**Problem:** Moving from development to production involves many considerations.
-**Solution:** Follow MLOps best practices and implement proper monitoring.
-
-## Summary
-
-In this chapter, we covered:
-
-- ✅ Fundamental concepts of human-ai collaboration
-- ✅ Practical implementation approaches
-- ✅ Best practices and industry standards
-- ✅ Real-world examples and use cases
-- ✅ Resources for continued learning
-
-## Key Takeaways
-
-!!! success "Remember"
-    - Human-AI Collaboration is essential for building trustworthy AI systems
-    - Start with fundamentals before moving to advanced topics
-    - Practice with real examples to solidify understanding
-    - Always consider ethical implications and best practices
-
-<div class="image-placeholder">
-  Chapter Summary Infographic
-</div>
 
 ## Next Steps
 
